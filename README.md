@@ -31,7 +31,7 @@ CLUSTER_URLS=enter the urls of your http interaction website url, seperated by c
 
 #### Example `.env` file
 
-```toml
+```.env
 PORT=3000
 CLUSTERS=auto
 PUBLIC_KEY=foobarthisisnotactuallyarealpublickeybutismeanttoserveasanexample
