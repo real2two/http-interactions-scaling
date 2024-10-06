@@ -34,8 +34,8 @@ CLUSTER_URLS=enter the urls of your http interaction website url, seperated by c
 ```toml
 PORT=3000
 CLUSTERS=auto
-PUBLIC_KEY: "foobarthisisnotactuallyarealpublickeybutismeanttoserveasanexample"
-CLUSTER_URLS: "http://localhost:3001,http://localhost:3002"
+PUBLIC_KEY=foobarthisisnotactuallyarealpublickeybutismeanttoserveasanexample
+CLUSTER_URLS=http://localhost:3001,http://localhost:3002
 ```
 
 ### Cloudflare Workers
@@ -53,7 +53,7 @@ CLUSTER_URLS = "enter the urls of your http interaction website url, seperated b
 
 #### Example `.dev.vars` file
 
-```toml
+```vars
 PUBLIC_KEY: "foobarthisisnotactuallyarealpublickeybutismeanttoserveasanexample"
 CLUSTER_URLS: "http://localhost:3001,http://localhost:3002"
 ```
