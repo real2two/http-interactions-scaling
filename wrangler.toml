@@ -1,0 +1,14 @@
+name = "http-interactions-scaling"
+main = "./src/wrangler/index.ts"
+compatibility_date = "2024-10-05"
+compatibility_flags = [ "nodejs_compat" ]
+
+[dev]
+port = 3000
+
+[vars]
+PUBLIC_KEY = ""
+CLUSTER_URLS = ""
+
+[observability]
+enabled = true
