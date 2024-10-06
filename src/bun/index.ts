@@ -1,7 +1,7 @@
 import { spawn } from "bun";
 import { cpus } from "./utils";
 
-console.log("Started server");
+console.info("Started server");
 
 if (cpus === 1) {
   import("./server");
